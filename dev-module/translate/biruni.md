@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Biruni
 
 Manage translations for messages used in the **Biruni web UI**, which are sourced from **dev\_pref.pck** with default English translations written in `biruni/main/web/biruni/constants/langs.js`

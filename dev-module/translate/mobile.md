@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Mobile
 
 Configure translations for mobile-specific interfaces or applications.
@@ -15,7 +29,7 @@ This ensures mobile users experience localized content effectively.
 
 ## **Adding New Messages to Translate**
 
-&#x20;Developers can add new messages for translation using the **Project\_Translate\_Code** procedure, which is located inside the **uis** package. The procedure requires specifying the **translation code** and the **project code**.
+Developers can add new messages for translation using the **Project\_Translate\_Code** procedure, which is located inside the **uis** package. The procedure requires specifying the **translation code** and the **project code**.
 
 ```plsql
 Procedure Project_Translate_Code

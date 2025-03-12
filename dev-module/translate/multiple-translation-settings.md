@@ -1,6 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Multiple Translation Settings
 
-Configure settings for handling translations across multiple languages, ensuring consistent localization throughout the application.&#x20;
+Configure settings for handling translations across multiple languages, ensuring consistent localization throughout the application.
 
 <figure><img src="../../.gitbook/assets/dev-module/multiple-translate-settings.png" alt=""><figcaption><p>Multiple Translation Settings</p></figcaption></figure>
 

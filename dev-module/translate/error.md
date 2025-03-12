@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Error
 
 Address and translate error messages or warnings to ensure clear communication in all supported languages
@@ -17,9 +31,7 @@ This ensures users receive understandable error messages regardless of language.
 
 Developers can add new error messages for translation using the **Raise\_Extended** procedure, which is located inside the **b** package. The procedure allows for adding errors with solutions, requiring specific formatting for titles, messages, and solutions.
 
-
-
-* **Procedure 1**:&#x20;
+* **Procedure 1**:
   * Use this procedure to raise an error with an array of solutions.
 
 <pre class="language-plsql" data-title="b.pck"><code class="lang-plsql"><strong>Procedure Raise_Extended

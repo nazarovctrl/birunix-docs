@@ -1,6 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Release Form
 
-Mark individual forms as ready for release, specifying associated actions to prepare them for production deployment.&#x20;
+Mark individual forms as ready for release, specifying associated actions to prepare them for production deployment.
 
 <figure><img src="../../.gitbook/assets/dev-module/release-form-projects.png" alt=""><figcaption><p>Release Form</p></figcaption></figure>
 

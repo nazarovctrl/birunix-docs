@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Zpackage
 
 Handle translations for package-related components or bundled features, leveraging the Z package which simplifies database operations by eliminating the need to write INSERT, UPDATE, DELETE, and SELECT queries manually.

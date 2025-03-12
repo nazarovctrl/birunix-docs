@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Routes
 
 Define and manage system paths to create a structured navigation system within the application.
@@ -15,7 +29,7 @@ Through the **Routes** form, developers can:
 
 In the **add**/**edit** form, developers can configure additional details such as:
 
-* Specify system paths (e.g., `/biruni/bmb/requests$pull`, `/biruni/bmb/requests:model`)  in the **URI** field
+* Specify system paths (e.g., `/biruni/bmb/requests$pull`, `/biruni/bmb/requests:model`) in the **URI** field
 * Link **routes** to **procedures** such as UI\_Biruni247.Get\_Requests and UI\_No\_Model to handle route-specific logic, set up in the **Action** field.
 * **Access types** (Public, Verify Session, Authorize).
 * **Allowed authentication types** (Session, Token, Bearer Token, Basic Auth).

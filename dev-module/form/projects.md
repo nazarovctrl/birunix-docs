@@ -1,6 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Projects
 
-Organize forms into projects to structure and manage application components systematically.&#x20;
+Organize forms into projects to structure and manage application components systematically.
 
 <figure><img src="../../.gitbook/assets/dev-module/projects-row-buttons.png" alt=""><figcaption><p>Projects</p></figcaption></figure>
 
@@ -19,4 +33,3 @@ In the project management forms (e.g., **Menus**, **Modules**, **Non-Subscriptio
 * **Quick Start Guide**: Add or edit text content and associate forms (e.g., `/biruni/bmb/requests`, `/biruni/kauth/client-add`) with the guide.
 
 This section supports developers in building modular and scalable application architectures.
-

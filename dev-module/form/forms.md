@@ -1,6 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Forms
 
-Register and manage forms to ensure they are properly integrated and accessible within the application.&#x20;
+Register and manage forms to ensure they are properly integrated and accessible within the application.
 
 <figure><img src="../../.gitbook/assets/dev-module/forms-row-buttons.png" alt=""><figcaption><p>Forms</p></figcaption></figure>
 

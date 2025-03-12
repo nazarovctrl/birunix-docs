@@ -1,10 +1,21 @@
 ---
 icon: earth-americas
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Translate
 
-The Translate group enables multilingual support for the application, allowing developers to manage translations efficiently and ensure consistent localization for diverse users.&#x20;
+The Translate group enables multilingual support for the application, allowing developers to manage translations efficiently and ensure consistent localization for diverse users.
 
 <figure><img src="../../.gitbook/assets/dev-module/translate-menu.png" alt=""><figcaption><p>Translate group</p></figcaption></figure>
 

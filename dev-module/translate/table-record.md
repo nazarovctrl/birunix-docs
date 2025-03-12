@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Table Record
 
 Translate table data or records for multilingual display.
@@ -13,7 +27,7 @@ Through the **Table Record** form, developers can:
 
 ## **Adding New Table Records to Translate**
 
-&#x20;Developers can add new table records for translation by inserting a row into the **Md\_Table\_Record\_Translate\_Settings** table. The table row requires specifying the table name and column set to be translated.
+Developers can add new table records for translation by inserting a row into the **Md\_Table\_Record\_Translate\_Settings** table. The table row requires specifying the table name and column set to be translated.
 
 * One method to insert a row is using the **z\_Md\_Table\_Record\_Translate\_Settings.Insert\_One** function:
 

@@ -1,8 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Quick Start Guide
 
-Access or translate a quick start guide for developers or users in multiple languages.&#x20;
-
-
+Access or translate a quick start guide for developers or users in multiple languages.
 
 <figure><img src="../../.gitbook/assets/dev-module/quick-start-guide-projects.png" alt=""><figcaption><p>Quick Start Guide</p></figcaption></figure>
 

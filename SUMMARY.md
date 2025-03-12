@@ -8,13 +8,8 @@
 
 ## Getting started
 
-* [Quickstart](getting-started/quickstart/README.md)
-  * [Maven Setup Guide](getting-started/quickstart/maven-setup-guide.md)
-  * [Tomcat Deployment Guide](getting-started/quickstart/tomcat-deployment-guide.md)
-
-## Group 1
-
-* [Page 3](group-1/page-3.md)
+* [Maven Setup Guide](getting-started/maven-setup-guide.md)
+* [Tomcat Deployment Guide](getting-started/tomcat-deployment-guide.md)
 
 ## Data / Business Logic
 

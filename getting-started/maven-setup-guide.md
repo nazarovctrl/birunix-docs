@@ -138,7 +138,7 @@ In addition to SQL\*Plus, you can also work with Oracle databases using various 
 3. Install Fazo Schema (Skip if already installed)
    1. Navigate to <mark style="color:orange;">**`biruni/main/fazo/`**</mark>
    2. Run <mark style="color:orange;">**`build.bat`**</mark> that generates <mark style="color:orange;">**`install_fazo_schema.sql`**</mark> in <mark style="color:orange;">**`biruni/main/`**</mark> folder
-4. [Execute](./#executing-sql-scripts-guide) the generated SQL script to create Fazo\_schema - the foundational component of all Biruni-based projects
+4. [Execute](broken-reference) the generated SQL script to create Fazo\_schema - the foundational component of all Biruni-based projects
 
 {% hint style="info" %}
 Fazo\_schema provides essential utilities, custom data types, and core functionality for the Biruni framework.
@@ -148,10 +148,10 @@ Fazo\_schema provides essential utilities, custom data types, and core functiona
 {% step %}
 #### Database Setup (as Newly Created User)
 
-1. [Log in](./#log-in-options) with your created user account
+1. [Log in](broken-reference) with your created user account
 2.  Download <mark style="color:orange;">**`orcl_biruni_all.sql`**</mark> from the Assets section at [Biruni Releases](https://github.com/greenwhite/biruni/releases).
 
-    [Execute](./#executing-sql-scripts-guide) the downloaded SQL file
+    [Execute](broken-reference) the downloaded SQL file
 
 {% hint style="info" %}
 <mark style="color:orange;">**`orcl_biruni_all.sql`**</mark> sets up the database of biruni project that includes tables, packages and all necessary data structures. In the process there will be created a new "Head" company and a new user "admin".
@@ -164,7 +164,7 @@ Fazo\_schema provides essential utilities, custom data types, and core functiona
 
 1. Install development environment (Optional)
    1. Navigate to <mark style="color:orange;">**`biruni/main/oracle/dev/`**</mark>
-   2. [Execute](./#executing-sql-scripts-guide) <mark style="color:orange;">**`make_dev.sql`**</mark>
+   2. [Execute](broken-reference) <mark style="color:orange;">**`make_dev.sql`**</mark>
 {% endstep %}
 {% endstepper %}
 
@@ -258,17 +258,17 @@ mvn spring-boot:run
 
 After successful initialization, you should see the following console output:
 
-<figure><picture><source srcset="../../.gitbook/assets/getting-started/quickstart/console-dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/getting-started/quickstart/console-white.png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../.gitbook/assets/getting-started/quickstart/console-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/getting-started/quickstart/console-white.png" alt=""></picture><figcaption></figcaption></figure>
 
 Open your browser and in the address bar at the top enter **`http://localhost:8080`**.
 
-<figure><img src="../../.gitbook/assets/getting-started/quickstart/login.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/getting-started/quickstart/login.png" alt=""><figcaption></figcaption></figure>
 
-#### [Log in as admin](./#admin-login-and-password) using:
+#### [Log in as admin](broken-reference) using:
 
 Welcome to the Dashboard!
 
-<figure><img src="../../.gitbook/assets/getting-started/quickstart/dashboard.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/getting-started/quickstart/dashboard.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -305,7 +305,7 @@ Fix: Ensure you have executed <mark style="color:orange;">**`user.sql`**</mark> 
 
 #### Web files not found
 
-<div align="left"><figure><img src="../../.gitbook/assets/getting-started/quickstart/file-not-found.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/getting-started/quickstart/file-not-found.png" alt=""><figcaption></figcaption></figure></div>
 
 Make sure you have configured web resources static location in <mark style="color:orange;">**`application.properties`**</mark>
 
@@ -315,7 +315,7 @@ spring.web.resources.static-locations=file:../web/=
 
 #### Uploaded file changed
 
-<div align="left"><figure><img src="../../.gitbook/assets/getting-started/quickstart/upload-files-changed.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/getting-started/quickstart/upload-files-changed.png" alt=""><figcaption></figcaption></figure></div>
 
 Ensure you have developer project folder configured properly in <mark style="color:orange;">**`application.properties`**</mark>
 

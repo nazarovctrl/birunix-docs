@@ -1,12 +1,23 @@
 ---
 icon: gem
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Features
 
-### 1.  API Management
+### 1. API Management
 
-* **Routing system**: Efficient request handling and navigation across the application. &#x20;
+* **Routing system**: Efficient request handling and navigation across the application.
 * **Route Redirect:** Allows redirecting requests from old routes to new ones, ensuring smooth transitions and backward compatibility.
 * **REST APIs**: Facilitates communication between services.
 * **Webhooks**: Supports event-driven interactions with external applications.

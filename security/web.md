@@ -15,9 +15,9 @@ description: >-
 
 ### Authentication Details
 
-* Users log in with a username and password formatted as `username@companyname` (e.g., admin@cola).
+* Users log in with a username and password formatted as `username@companyname` (e.g., admin@duck).
   * **Username**: The user’s unique identifier (e.g., admin).
-  * **Companyname**: The associated company or organization (e.g., cola).
+  * **Companyname**: The associated company or organization (e.g., duck).
 * Upon successful login, the backend attaches a cookie to the response to maintain the user session.
 
 ## Request Example
@@ -27,7 +27,7 @@ To demonstrate how the login process works (e.g., via login.html), a **POST** re
 {% code title="request body" %}
 ```json
 {
-  "login": "admin@cola",
+  "login": "admin@duck",
   "password": "e40c127f08bbf5a475019d429f281241972fc048" 
 }
 ```

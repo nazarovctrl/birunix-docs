@@ -1,16 +1,16 @@
 # Table of contents
 
+* [README](README.md)
+
 ## Overview
 
 * [Overview](overview/README.md)
 
 ## Getting started
 
-* [Getting Started](getting-started/README.md)
-  * [Quickstart](getting-started/quickstart/README.md)
+* [Quickstart](getting-started/quickstart/README.md)
   * [Maven Setup Guide](getting-started/quickstart/maven-setup-guide.md)
   * [Tomcat Deployment Guide](getting-started/quickstart/tomcat-deployment-guide.md)
-  
 
 ## Group 1
 
@@ -19,14 +19,14 @@
 ## Data / Business Logic
 
 * [Data / Business Logic](data-business-logic/README.md)
-    * [Module Files](data-business-logic/module-files/README.md)
-        * [Module Setup Folder](data-business-logic/module-files/module-setup-folder/README.md)
-            * [Table](data-business-logic/module-files/module-setup-folder/table.md)
-        * [Module Packages](data-business-logic/module-files/module-packages.md)
-    * [UI Packages](data-business-logic/ui-packages/README.md)
-        * [UI\_\*.pck Files](data-business-logic/ui-packages/ui_-.pck-files.md)
-        * [UI\_PROJECT\_CODE\*.pck](data-business-logic/ui-packages/ui_project_code_-.pck.md)
-        * [UIT\_\*.pck](data-business-logic/ui-packages/uit_-.pck.md)
+  * [Module Files](data-business-logic/module-files/README.md)
+    * [Module Setup Folder](data-business-logic/module-files/module-setup-folder/README.md)
+      * [Table](data-business-logic/module-files/module-setup-folder/table.md)
+    * [Module Packages](data-business-logic/module-files/module-packages.md)
+  * [UI Packages](data-business-logic/ui-packages/README.md)
+    * [UI\_\*.pck Files](data-business-logic/ui-packages/ui_-.pck-files.md)
+    * [UI\_PROJECT\_CODE\*.pck](data-business-logic/ui-packages/ui_project_code_-.pck.md)
+    * [UIT\_\*.pck](data-business-logic/ui-packages/uit_-.pck.md)
 
 ## Views
 

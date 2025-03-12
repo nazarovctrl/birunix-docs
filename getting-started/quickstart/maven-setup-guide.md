@@ -1,3 +1,18 @@
+---
+icon: square-terminal
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Maven Setup Guide
 
 ## Prerequisites
@@ -42,15 +57,15 @@ git clone https://github.com/greenwhite/biruni.git
 
 {% stepper %}
 {% step %}
-### Initial Oracle Setup (as SYS)
+#### Initial Oracle Setup (as SYS)
 
 1. Log in to the database as SYS
 
-#### Log in options:
+**Log in options:**
 
 {% tabs %}
 {% tab title="SQL * Plus" %}
-#### Log in to the database as SYS:
+**Log in to the database as SYS:**
 
 ```sql
 sqlplus sys/your_password@hostname:port/service_name as sysdba
@@ -64,7 +79,7 @@ sqlplus sys/password@192.168.1.100:1521/orcl as sysdba
 
 ***
 
-#### Log in to the database
+**Log in to the database**
 
 ```sql
 sqlplus your_username/your_password@hostname:port/service_name
@@ -90,7 +105,7 @@ In addition to SQL\*Plus, you can also work with Oracle databases using various 
 <mark style="color:orange;">**`tablespace.sql`**</mark> creats tablespaces used in biruni-based projects
 {% endhint %}
 
-#### Executing SQL scripts guide:
+**Executing SQL scripts guide:**
 
 {% tabs %}
 {% tab title="SQL * Plus" %}
@@ -121,8 +136,8 @@ In addition to SQL\*Plus, you can also work with Oracle databases using various 
 {% endtabs %}
 
 3. Install Fazo Schema (Skip if already installed)
-   1. Navigate to <mark style="color:orange;">**`biruni/main/fazo/`**</mark>&#x20;
-   2. Run <mark style="color:orange;">**`build.bat`**</mark> that generates <mark style="color:orange;">**`install_fazo_schema.sql`**</mark>  in <mark style="color:orange;">**`biruni/main/`**</mark> folder
+   1. Navigate to <mark style="color:orange;">**`biruni/main/fazo/`**</mark>
+   2. Run <mark style="color:orange;">**`build.bat`**</mark> that generates <mark style="color:orange;">**`install_fazo_schema.sql`**</mark> in <mark style="color:orange;">**`biruni/main/`**</mark> folder
 4. [Execute](./#executing-sql-scripts-guide) the generated SQL script to create Fazo\_schema - the foundational component of all Biruni-based projects
 
 {% hint style="info" %}
@@ -131,7 +146,7 @@ Fazo\_schema provides essential utilities, custom data types, and core functiona
 {% endstep %}
 
 {% step %}
-### Database Setup (as Newly Created User)
+#### Database Setup (as Newly Created User)
 
 1. [Log in](./#log-in-options) with your created user account
 2.  Download <mark style="color:orange;">**`orcl_biruni_all.sql`**</mark> from the Assets section at [Biruni Releases](https://github.com/greenwhite/biruni/releases).
@@ -141,14 +156,14 @@ Fazo\_schema provides essential utilities, custom data types, and core functiona
 {% hint style="info" %}
 <mark style="color:orange;">**`orcl_biruni_all.sql`**</mark> sets up the database of biruni project that includes tables, packages and all necessary data structures. In the process there will be created a new "Head" company and a new user "admin".
 
-#### Admin login & password:
+**Admin login & password:**
 
 * Login: admin@head
 * Password: greenwhite
 {% endhint %}
 
 1. Install development environment (Optional)
-   1. Navigate to <mark style="color:orange;">**`biruni/main/oracle/dev/`**</mark>&#x20;
+   1. Navigate to <mark style="color:orange;">**`biruni/main/oracle/dev/`**</mark>
    2. [Execute](./#executing-sql-scripts-guide) <mark style="color:orange;">**`make_dev.sql`**</mark>
 {% endstep %}
 {% endstepper %}
@@ -176,7 +191,7 @@ Fazo\_schema provides essential utilities, custom data types, and core functiona
 
 ***
 
-### Frontend CSS Styles Configuration&#x20;
+### Frontend CSS Styles Configuration
 
 #### Install sass globally:
 
@@ -227,7 +242,7 @@ spring.web.resources.static-locations=file:../web/
 
 ## Running the Project
 
-Navigate to <mark style="color:orange;">**`biruni/main/app/`**</mark>&#x20;
+Navigate to <mark style="color:orange;">**`biruni/main/app/`**</mark>
 
 ### Install Dependencies
 
@@ -271,7 +286,7 @@ ORA-01017: invalid username/password
 Fix:
 
 1. Check Oracle services are running
-2. Verify credentials in <mark style="color:orange;">**`application.properties`**</mark>&#x20;
+2. Verify credentials in <mark style="color:orange;">**`application.properties`**</mark>
 
 ```properties
 spring.datasource.username=YOUR_SCHEMA_USERNAME
@@ -292,7 +307,7 @@ Fix: Ensure you have executed <mark style="color:orange;">**`user.sql`**</mark> 
 
 <div align="left"><figure><img src="../../.gitbook/assets/getting-started/quickstart/file-not-found.png" alt=""><figcaption></figcaption></figure></div>
 
-Make sure you have configured web resources static location in <mark style="color:orange;">**`application.properties`**</mark>&#x20;
+Make sure you have configured web resources static location in <mark style="color:orange;">**`application.properties`**</mark>
 
 ```properties
 spring.web.resources.static-locations=file:../web/=

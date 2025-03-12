@@ -1,3 +1,18 @@
+---
+icon: server
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Tomcat Deployment Guide
 
 ## Prerequisites
@@ -10,7 +25,7 @@
 
 ***
 
-## [Oracle Setup](../#oracle-setup-guide)
+## [Oracle Setup](broken-reference)
 
 ***
 
@@ -18,7 +33,7 @@
 
 {% stepper %}
 {% step %}
-### Download Project Files
+#### Download Project Files
 
 From [Biruni Releases](https://github.com/greenwhite/biruni/releases) go to **Assets** section and download:
 
@@ -29,7 +44,7 @@ From [Biruni Releases](https://github.com/greenwhite/biruni/releases) go to **As
 {% endstep %}
 
 {% step %}
-### Application Installation
+#### Application Installation
 
 1. Deploy application
    1. Locate your tomcat directory
@@ -63,16 +78,16 @@ From [Biruni Releases](https://github.com/greenwhite/biruni/releases) go to **As
 {% endstep %}
 
 {% step %}
-### Configuration Setup
+#### Configuration Setup
 
 1. Initial Tomcat configuration
    1. Navigate to <mark style="color:orange;">**`tomcat/bin/`**</mark>
-   2. Run <mark style="color:orange;">**`tomcat10.exe`**</mark>&#x20;
+   2. Run <mark style="color:orange;">**`tomcat10.exe`**</mark>
    3.  Wait for initial startup (Tomcat will begin deploying projects)
 
        The project will generate<mark style="color:orange;">**`YOUR_PROJECT_NAME.properties`**</mark> in Tomcat's <mark style="color:orange;">**`properties`**</mark> folder
 2. Properties configuration
-   1. Navigate to <mark style="color:orange;">**`tomcat/properties`**</mark>&#x20;
+   1. Navigate to <mark style="color:orange;">**`tomcat/properties`**</mark>
    2. Configure <mark style="color:orange;">**`YOUR_PROJECT_NAME.properties`**</mark>:
 
 ```properties
@@ -85,7 +100,7 @@ biruni.dev.projects-folder=YOUR_PROJECTS_LOCATION
 {% endstep %}
 
 {% step %}
-### Application Launch
+#### Application Launch
 
 1.  Start applicatoin
 
@@ -97,10 +112,10 @@ biruni.dev.projects-folder=YOUR_PROJECTS_LOCATION
 2.  Access application
 
     1. Open your web browser
-    2. Enter URL: <mark style="color:orange;">**`http://localhost:8080/YOUR_PROJECT_NAME`**</mark>&#x20;
+    2. Enter URL: <mark style="color:orange;">**`http://localhost:8080/YOUR_PROJECT_NAME`**</mark>
 
     <figure><img src="../../.gitbook/assets/getting-started/quickstart/login.png" alt=""><figcaption></figcaption></figure>
-3. [Log in as admin](../#log-in-as-admin-using)
+3. [Log in as admin](broken-reference)
 {% endstep %}
 {% endstepper %}
 
@@ -108,7 +123,7 @@ biruni.dev.projects-folder=YOUR_PROJECTS_LOCATION
 
 ## Troubleshooting
 
-### [Database Setup Issues](../#database-setup-issues)
+### [Database Setup Issues](broken-reference)
 
 ### Deployment Issues
 
@@ -117,4 +132,3 @@ biruni.dev.projects-folder=YOUR_PROJECTS_LOCATION
 <figure><img src="../../.gitbook/assets/getting-started/quickstart/library-missing.png" alt=""><figcaption></figcaption></figure>
 
 Make sure you have [installed libraries](tomcat-deployment-guide.md#application-installation) correctly
-

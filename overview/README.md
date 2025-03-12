@@ -1,4 +1,5 @@
 ---
+icon: torii-gate
 layout:
   title:
     visible: true
@@ -12,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Overview
+# Introduction
 
 ## Introduction
 
@@ -69,4 +70,3 @@ Biruni significantly reduces boilerplate code by following a consistent, pre-des
 ### For Products
 
 Biruni accelerates application development, enabling faster time-to-market. The framework standardized UI components and security features contribute to a seamless and reliable user experience. Applications built with Biruni have built-in enterprise features.
-

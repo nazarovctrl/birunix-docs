@@ -30,7 +30,7 @@
 
 ## Views
 
-* [Views](README.md)
+* [Views](views/README.md)
   * [Forms (view)](views/forms-view/README.md)
     * [Form HTML File](views/forms-view/form-html-file.md)
   * [Routing](views/routing.md)

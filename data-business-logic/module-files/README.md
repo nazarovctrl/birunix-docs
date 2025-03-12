@@ -1,12 +1,23 @@
 ---
 icon: suitcase
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Module Files
 
 Modules in Biruni are logical groupings of files that serve a specific purpose within a project. They follow a strict hierarchy and naming convention to ensure consistency and maintainability. Biruni currently consists of 11 modules, but users can also create their own modules based on their project requirements.
 
-## Module Naming Convention&#x20;
+## Module Naming Convention
 
 Modules should use short, descriptive names with a prefix indicating the project they belong to.
 

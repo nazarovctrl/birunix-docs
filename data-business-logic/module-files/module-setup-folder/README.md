@@ -1,5 +1,16 @@
 ---
 icon: wrench
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Module Setup Folder
@@ -20,7 +31,7 @@ Each module's setup folder contains SQL files that define the module's foundatio
 
 ### **1. Table Files**
 
-* **Naming Pattern:** `module_name_table.sql` (e.g.,  `tmd_table.sql`)
+* **Naming Pattern:** `module_name_table.sql` (e.g., `tmd_table.sql`)
 * **Content:** Creates tables, comments, and indexes for the module
 
 {% content-ref url="table.md" %}

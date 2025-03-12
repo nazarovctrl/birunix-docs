@@ -1,5 +1,16 @@
 ---
 icon: table
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Table
@@ -111,4 +122,3 @@ EXEC Fazo_Z.Run('tm');
 ```
 
 This generates **Z packages** for all tables whose names start with **"tm"**.
-

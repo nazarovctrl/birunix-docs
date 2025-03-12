@@ -1,5 +1,16 @@
 ---
 icon: binary-circle-check
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Data / Business Logic
@@ -12,7 +23,7 @@ The Biruni application includes several fundamental forms for managing companies
 
 <figure><img src="../.gitbook/assets/data-business-logic/main-forms.png" alt=""><figcaption><p>main menu</p></figcaption></figure>
 
-<table data-full-width="false"><thead><tr><th width="171">Entity name</th><th width="270">Description</th><th>form path</th></tr></thead><tbody><tr><td><strong>Company</strong> </td><td>Manages company-related data and configurations</td><td>/biruni/md/company_list</td></tr><tr><td><strong>Organization</strong></td><td> Handles branch  information within a company</td><td>/biruni/md/filial_list</td></tr><tr><td><strong>User</strong> </td><td> Manages user accounts and their associated details</td><td>/biruni/md/user_list</td></tr><tr><td><strong>Role</strong> </td><td>Defines user roles and permissions within the system</td><td>/biruni/md/role_list</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="171">Entity name</th><th width="270">Description</th><th>form path</th></tr></thead><tbody><tr><td><strong>Company</strong></td><td>Manages company-related data and configurations</td><td>/biruni/md/company_list</td></tr><tr><td><strong>Organization</strong></td><td>Handles branch information within a company</td><td>/biruni/md/filial_list</td></tr><tr><td><strong>User</strong></td><td>Manages user accounts and their associated details</td><td>/biruni/md/user_list</td></tr><tr><td><strong>Role</strong></td><td>Defines user roles and permissions within the system</td><td>/biruni/md/role_list</td></tr></tbody></table>
 
 As you can see, the path includes the project code, module code, and the path to the HTML file within the module folder.
 

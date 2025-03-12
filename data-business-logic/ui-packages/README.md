@@ -1,5 +1,16 @@
 ---
 icon: cubes
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # UI Packages
@@ -17,4 +28,3 @@ icon: cubes
 {% content-ref url="uit_-.pck.md" %}
 [uit\_-.pck.md](uit_-.pck.md)
 {% endcontent-ref %}
-

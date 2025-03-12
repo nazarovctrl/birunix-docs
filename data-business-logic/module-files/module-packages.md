@@ -1,5 +1,16 @@
 ---
 icon: box-open
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Module Packages
@@ -20,8 +31,6 @@ icon: box-open
                 ├── tmd_audit.pck
 ```
 
-
-
 Module packages provide specialized functionality and follow a strict naming convention with specific purposes:
 
 <table><thead><tr><th width="231">Package Type</th><th>Purpose</th></tr></thead><tbody><tr><td>core</td><td>Hides functions from other modules and prevents code rewriting in the API</td></tr><tr><td>api</td><td>Contains basic DML operations (insert, update, delete) used in UI</td></tr><tr><td>pref</td><td>Stores module-related constants, variables, types, settings, and getter functions</td></tr><tr><td>global</td><td>Contains global variables and types</td></tr><tr><td>next</td><td>Used to retrieve next sequence elements</td></tr><tr><td>util</td><td>Contains utility procedures and functions</td></tr><tr><td>watcher</td><td>Implements watcher logic related to module data</td></tr><tr><td>audit</td><td>Contains code for auditing module data</td></tr></tbody></table>
@@ -39,4 +48,4 @@ Module packages provide specialized functionality and follow a strict naming con
 
 ### **Translation and Internationalization**
 
-* When a module package function calls the b package's translate (`b.translate()`) function, it prefixes the module name to the first parameter.  For example:                                                                                         `b.Translate('TMD:' || i_Message, i_P1, i_P2, i_P3, i_P4, i_P5)`
+* When a module package function calls the b package's translate (`b.translate()`) function, it prefixes the module name to the first parameter. For example: `b.Translate('TMD:' || i_Message, i_P1, i_P2, i_P3, i_P4, i_P5)`

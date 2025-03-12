@@ -1,5 +1,16 @@
 ---
 icon: box-open
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # UI\_PROJECT\_CODE\*.pck
@@ -32,7 +43,7 @@ The UI\_PROJECT\_CODE\*.pck packages act as an interface layer, bridging externa
 
 ### **Translation and Internationalization**
 
-* When a UI package function calls the b package's translate (`b.translate()`) function, it prefixes the package name to the first parameter.  For example:                                                                   `b.Translate('UI-MANAGEMENT:' || i_Message, i_P1, i_P2, i_P3, i_P4, i_P5)`                                                   &#x20;
+* When a UI package function calls the b package's translate (`b.translate()`) function, it prefixes the package name to the first parameter. For example: `b.Translate('UI-MANAGEMENT:' || i_Message, i_P1, i_P2, i_P3, i_P4, i_P5)`
 
 ### Example
 

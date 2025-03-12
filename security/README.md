@@ -1,5 +1,16 @@
 ---
 icon: lock-keyhole
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Security
@@ -15,10 +26,9 @@ The Biruni framework's security system is engineered to authenticate and authori
 * **OAuth2-based authorization** for securing API access and managing company-level server clients.
 * **License management** to enforce access control and validate software usage through activation and assignment.
 
-The security configurations are organized into four key areas:&#x20;
+The security configurations are organized into four key areas:
 
 * **Web**
-* **Mobile**&#x20;
-* **API/OAuth2**
-* **OAuth2**&#x20;
+* **Mobile**
+* **OAuth2**
 * **Licensing**

@@ -1,5 +1,16 @@
 ---
 icon: file-certificate
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Licensing
@@ -30,13 +41,13 @@ To activate a license for a company, follow these steps as the **admin@head** us
 
 <figure><img src="../.gitbook/assets/security/licensing-companies-view-btn.png" alt=""><figcaption></figcaption></figure>
 
-4. **Generate the Server Code**:&#x20;
+4. **Generate the Server Code**:
    * In the company details view, under the **Information** tab, locate the **Server Code** field.
    * Click the 🔑 button (or equivalent icon) to generate the **Server Code**.
 
 <figure><img src="../.gitbook/assets/security/licensing-companies-view.png" alt=""><figcaption></figcaption></figure>
 
-5. **Copy the Generated Server Code**:&#x20;
+5. **Copy the Generated Server Code**:
    * Once generated, copy the **Server Code** (e.g., 0CC3-2D9F-EDC4-7C76-C680-82FA-4EF-C8AB).
    * Use this code in the **Billing** project to obtain the **Instance Activation Code.**
 
@@ -53,7 +64,7 @@ To activate a license for a company, follow these steps as the **admin@head** us
 
 <figure><img src="../.gitbook/assets/security/licensing-license-activation-verify.png" alt=""><figcaption></figcaption></figure>
 
-7. **Verify Activation**:&#x20;
+7. **Verify Activation**:
    * After successful activation, the status will update to **Activated**.
    * You’ll see details such as the activator’s name (e.g., "Admin") and the activation timestamp (e.g., "11.03.25 09:32:15400").
    * A **Reactivate** button may appear for future adjustments.
@@ -64,7 +75,7 @@ To activate a license for a company, follow these steps as the **admin@head** us
 
 To activate or purchase a license for a specific company, use the `/biruni/kl/license_list` form. Log in as the company admin (e.g., **admin@duck**) and follow these steps:
 
-1. **Log in as Company Admin**:&#x20;
+1. **Log in as Company Admin**:
    * Use the admin credentials for the specific company (e.g., **admin@duck**).
 2. **Navigate to the License Section**:
    * From the main menu, go to **Main** > **Licenses**.
@@ -73,13 +84,13 @@ To activate or purchase a license for a specific company, use the `/biruni/kl/li
 <figure><img src="../.gitbook/assets/security/licensing-purchase.png" alt=""><figcaption></figcaption></figure>
 
 3. **Enter License Code or Upload File**:
-   * In the **License Code** field, paste your license code manually, or                                                                                                                               upload a license file by clicking the field or dragging the file into it.
+   * In the **License Code** field, paste your license code manually, or upload a license file by clicking the field or dragging the file into it.
 
 <figure><img src="../.gitbook/assets/security/licensing-purchase-activate-btn.png" alt=""><figcaption></figcaption></figure>
 
 4. **Activate the License**:
    * Click the **Activate** button.
-5. **View Active Licenses**:&#x20;
+5. **View Active Licenses**:
    * After successful activation, view your active licenses in the **Licenses and Documents** section.
    * The table will display details such as license name, start/end dates, quantity, and type.
 

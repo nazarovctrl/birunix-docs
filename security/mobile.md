@@ -1,10 +1,23 @@
 ---
+description: >-
+  This section explains how the Biruni framework secures mobile applications
+  using token-based authentication, ensuring secure and reliable access for
+  mobile users.
 icon: mobile
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Mobile
-
-This section explains how the Biruni framework secures mobile applications using token-based authentication, ensuring secure and reliable access for mobile users.
 
 ### Login Process
 
@@ -14,7 +27,7 @@ This section explains how the Biruni framework secures mobile applications using
 
 #### Request Details
 
-* The login request is a POST request with a JSON body containing device and user information.&#x20;
+* The login request is a POST request with a JSON body containing device and user information.
 
 {% code title="request body" %}
 ```json
@@ -39,7 +52,7 @@ This section explains how the Biruni framework secures mobile applications using
 
 #### Successful Login Response
 
-* Upon successful login, the backend returns a JSON response with user details and a token.&#x20;
+* Upon successful login, the backend returns a JSON response with user details and a token.
 
 {% code title="response body" %}
 ```json
@@ -66,7 +79,7 @@ This section explains how the Biruni framework secures mobile applications using
 
 ### Usage
 
-* After receiving the token, mobile applications must include it in the token header for all API calls to the Biruni framework.&#x20;
+* After receiving the token, mobile applications must include it in the token header for all API calls to the Biruni framework.
 
 {% code title="Example header" %}
 ```

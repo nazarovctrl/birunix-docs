@@ -1,14 +1,13 @@
 ---
-icon: key
 description: >-
-  This section describes how to secure API access in the Biruni framework using
-  token-based authentication with the password grant type, enabling external
-  services to authenticate and interact.
+  This section outlines the system level OAuth2 authorization process in the
+  Biruni framework, enabling grant types such as code and password.
+icon: key
 ---
 
-# API/OAuth2
+# System level
 
-<figure><img src="../.gitbook/assets/security/api-oauth2-server-clients.png" alt=""><figcaption><p>API/OAuth2 server clients form in Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/api-oauth2-server-clients.png" alt=""><figcaption><p>API/OAuth2 server clients form in Menu</p></figcaption></figure>
 
 ## Client Setup
 
@@ -16,11 +15,11 @@ description: >-
 
 * To use API tokens, a **client\_id** and **client\_secret** must first be created.
 
-<figure><img src="../.gitbook/assets/security/api-oauth2-server-clients-create.png" alt=""><figcaption><p>View all created clients (<code>/biruni/kauth/client_list</code>)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/api-oauth2-server-clients-create.png" alt=""><figcaption><p>View all created clients (<code>/biruni/kauth/client_list</code>)</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/security/api-oauth2-client-add.png" alt=""><figcaption><p>Create a client (<strong><code>/biruni/kauth/client+add)</code></strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/api-oauth2-client-add.png" alt=""><figcaption><p>Create a client (<strong><code>/biruni/kauth/client+add)</code></strong></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/security/api-oauth2-list.png" alt=""><figcaption><p><strong>client_id</strong> and <strong>client_secret</strong> (<code>/biruni/kauth/client_list</code></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/api-oauth2-list.png" alt=""><figcaption><p><strong>client_id</strong> and <strong>client_secret</strong> (<code>/biruni/kauth/client_list</code></p></figcaption></figure>
 
 * Use this form to generate unique credentials for your client.
 
@@ -89,4 +88,3 @@ description: >-
 
 * Include the **access\_token** in the **Authorization** header of API requests (e.g., Authorization: Bearer \<access\_token>).
 * Use the **refresh\_token** to generate a new **access\_token** when the current one expires.
-

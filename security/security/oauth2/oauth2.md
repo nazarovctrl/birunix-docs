@@ -1,12 +1,25 @@
 ---
+description: >-
+  This section outlines the company level OAuth2 authorization process in the
+  Biruni framework, enabling secure API access for various use cases with
+  client_cridentials and authorization_code grant type
 icon: key
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# OAuth2
+# Company level
 
-This section outlines the OAuth2 authorization process in the Biruni framework, enabling secure API access for various use cases with flexible grant types. Unlike **API/OAuth2**, which focuses on token-based authentication with the **password** grant type for specific API client configurations, OAuth2 provides broader management of **OAuth2** server clients at the **company level**, overseeing authorization across the organization with support for multiple grant types such as **client\_credentials** and **authorization\_code**.
-
-<figure><img src="../.gitbook/assets/security/oauth2-menu.png" alt=""><figcaption><p>OAuth2 server client for a company form In Menu</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/oauth2-menu.png" alt=""><figcaption><p>OAuth2 server client for a company form In Menu</p></figcaption></figure>
 
 ## Client Setup
 
@@ -14,9 +27,9 @@ This section outlines the OAuth2 authorization process in the Biruni framework, 
 
 * To use OAuth2 authorization, a client\_id and client\_secret must be created.
 
-<figure><img src="../.gitbook/assets/security/oauth2-create-btn.png" alt=""><figcaption><p>View all clients (<code>/biruni/kauth/company_client_list</code>)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/oauth2-create-btn.png" alt=""><figcaption><p>View all clients (<code>/biruni/kauth/company_client_list</code>)</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/security/oauth2-create.png" alt=""><figcaption><p>Create a client (<code>/biruni/kauth/company_client+add</code>)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/oauth2-create.png" alt=""><figcaption><p>Create a client (<code>/biruni/kauth/company_client+add</code>)</p></figcaption></figure>
 
 ### Grant Types
 
@@ -33,11 +46,9 @@ This section outlines the OAuth2 authorization process in the Biruni framework, 
 * Scopes limit API access (e.g., read, write, or read+write).
 * This feature is not yet implemented but will be configurable when creating or editing routes.
 
-
-
 You can create multiple clients, each with unique **client\_id** and **client\_secret**.
 
-<figure><img src="../.gitbook/assets/security/oauth2-list.png" alt=""><figcaption><p><strong>client_id</strong> and <strong>client_secret</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/security/oauth2-list.png" alt=""><figcaption><p><strong>client_id</strong> and <strong>client_secret</strong></p></figcaption></figure>
 
 ## Endpoints
 
@@ -160,4 +171,3 @@ You can create multiple clients, each with unique **client\_id** and **client\_s
 
 * Include the **access\_token** in the Authorization header (e.g., Authorization: Bearer \<access\_token>) for API requests.
 * Use the **refresh\_token** to request a new **access\_token** when the current one expires.
-

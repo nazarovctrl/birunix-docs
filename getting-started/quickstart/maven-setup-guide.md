@@ -258,17 +258,17 @@ mvn spring-boot:run
 
 After successful initialization, you should see the following console output:
 
-<figure><picture><source srcset="../.gitbook/assets/getting-started/quickstart/console-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/getting-started/quickstart/console-white.png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../.gitbook/assets/getting-started/quickstart/console-dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/getting-started/quickstart/console-white.png" alt=""></picture><figcaption></figcaption></figure>
 
 Open your browser and in the address bar at the top enter **`http://localhost:8080`**.
 
-<figure><img src="../.gitbook/assets/getting-started/quickstart/login.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/getting-started/quickstart/login.png" alt=""><figcaption></figcaption></figure>
 
 #### [Log in as admin](broken-reference) using:
 
 Welcome to the Dashboard!
 
-<figure><img src="../.gitbook/assets/getting-started/quickstart/dashboard.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/getting-started/quickstart/dashboard.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -305,7 +305,7 @@ Fix: Ensure you have executed <mark style="color:orange;">**`user.sql`**</mark> 
 
 #### Web files not found
 
-<div align="left"><figure><img src="../.gitbook/assets/getting-started/quickstart/file-not-found.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/getting-started/quickstart/file-not-found.png" alt=""><figcaption></figcaption></figure></div>
 
 Make sure you have configured web resources static location in <mark style="color:orange;">**`application.properties`**</mark>
 
@@ -315,7 +315,7 @@ spring.web.resources.static-locations=file:../web/=
 
 #### Uploaded file changed
 
-<div align="left"><figure><img src="../.gitbook/assets/getting-started/quickstart/upload-files-changed.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/getting-started/quickstart/upload-files-changed.png" alt=""><figcaption></figcaption></figure></div>
 
 Ensure you have developer project folder configured properly in <mark style="color:orange;">**`application.properties`**</mark>
 

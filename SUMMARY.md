@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [Introduction](overview/README.md)
+* [Introduction](README.md)
 * [Features](overview/features.md)
 * [System Requirements](overview/system-requirements.md)
 

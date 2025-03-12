@@ -47,4 +47,9 @@
 
 ## Security
 
-* [Page 6](security/page-6.md)
+  * [Security](security/README.md)
+    * [Web](security/web.md)
+    * [Mobile](security/mobile.md)
+    * [API/OAuth2](security/api-oauth2.md)
+    * [OAuth2](security/oauth2.md)
+    * [Licensing](security/licensing.md)

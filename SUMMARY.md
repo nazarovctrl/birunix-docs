@@ -66,3 +66,10 @@
     * [System level](security/security/oauth2/api-oauth2.md)
     * [Company level](security/security/oauth2/oauth2.md)
   * [Licensing](security/licensing.md)
+
+## ADVANCED TOPICS
+
+* [Reports](advanced-topics/reports/README.md)
+  * [Biruni report](advanced-topics/reports/biruni-report.md)
+  * [Lazy report](advanced-topics/reports/lazy-report.md)
+  * [Easy report](advanced-topics/reports/easy-report.md)

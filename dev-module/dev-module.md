@@ -1,5 +1,5 @@
 ---
-icon: laptop-code
+icon: code-commit
 layout:
   title:
     visible: true
@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Dev module
+# Basic Concepts
 
 The **Dev module** in the Biruni framework provides a suite of tools and functionalities designed to streamline development, manage application components, and ensure smooth deployment processes. However, to access and use the **Dev module**, the application must be running in **Dev mode**. Accessible via the **Developer menu**, this module empowers developers to configure routes, manage permissions, handle translations, oversee releases, and monitor warnings—all within a unified interface. Below is an overview of its key features and how developers can utilize them.
 

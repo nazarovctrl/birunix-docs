@@ -1,5 +1,5 @@
 ---
-icon: lock-keyhole
+icon: lock
 layout:
   title:
     visible: true
@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Security
+# Securing Application
 
 This section outlines the security mechanisms of the Biruni framework, designed to ensure secure access and authentication across web applications, mobile applications, APIs, and license management. The framework provides a comprehensive set of tools and protocols to protect user interactions, data, and system resources, tailored to diverse platforms and use cases.
 

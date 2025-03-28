@@ -1,5 +1,5 @@
 ---
-icon: binoculars
+icon: objects-column
 layout:
   title:
     visible: true
@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Views
+# Key Components
 
 The user interface of the Biruni web application follows a structured layout consisting of three main sections: Header, Body, and Footer. The application is a single-page application (SPA), meaning that only the Body section updates dynamically while the Header and Footer remain unchanged, ensuring smooth navigation and a seamless user experience.
 

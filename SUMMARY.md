@@ -86,3 +86,5 @@
   * [Biruni report](advanced-topics/reports/biruni-report.md)
   * [Lazy report](advanced-topics/reports/lazy-report.md)
   * [Easy report](advanced-topics/reports/easy-report.md)
+* [Modules](advanced-topics/modules/README.md)
+  * [BMB](advanced-topics/modules/bmb.md)

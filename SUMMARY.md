@@ -82,11 +82,13 @@
 
 ## ADVANCED TOPICS
 
+* [Oracle Modules](advanced-topics/oracle-modules/README.md)
+  * [KDYN](advanced-topics/oracle-modules/kdyn.md)
+  * [BMB](advanced-topics/oracle-modules/bmb.md)
+* [App Server](advanced-topics/app-server.md)
+* [Frontend Components](advanced-topics/frontend-components/README.md)
+  * [Web-Plugin](advanced-topics/frontend-components/web-plugin.md)
 * [Reports](advanced-topics/reports/README.md)
   * [Biruni report](advanced-topics/reports/biruni-report.md)
   * [Lazy report](advanced-topics/reports/lazy-report.md)
   * [Easy report](advanced-topics/reports/easy-report.md)
-* [Modules](advanced-topics/modules/README.md)
-  * [BMB](advanced-topics/modules/bmb.md)
-  * [Page](advanced-topics/modules/page/README.md)
-    * [KDYN](advanced-topics/modules/page/kdyn.md)

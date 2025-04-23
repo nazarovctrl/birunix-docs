@@ -88,3 +88,5 @@
   * [Easy report](advanced-topics/reports/easy-report.md)
 * [Modules](advanced-topics/modules/README.md)
   * [BMB](advanced-topics/modules/bmb.md)
+  * [Page](advanced-topics/modules/page/README.md)
+    * [KDYN](advanced-topics/modules/page/kdyn.md)

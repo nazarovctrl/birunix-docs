@@ -31,11 +31,9 @@ begin
 end;
 ```
 
-## **Process Flow**
+## **How It Works**
 
-1. When a user requests a Lazy Report, a new thread is created to execute the report generation function.
-2. The function returns a `Lazy_Report` type, which contains a unique ID to identify the report.
-3. This ID is used to check the report's status and download it once ready.
+When user requests a lazy report, a new thread is created and report generation function is executed in that thread. When report generation function is executed, it returns `Lazy_Report` type. This type contains a unique id that is used to identify the report. This id is used to check the status of the report and to download the report. User by default waits for 60 seconds to get the report. If report is generated in 60 seconds, report downloads instantly. If report is not generated in 60 seconds, user is notified that report is being generated in background and user can continue to work with the application. When report is generated, user is notified about it and can download it. There has one limitation, user can generate only one lazy report at a time for each report. If user tries to generate another lazy report while one is being generated, user is notified that another report is being generated and user can continue to work with the application.
 
 ## **Report Statuses**
 
@@ -56,6 +54,12 @@ A Lazy Report can have one of the following four statuses:
 
 Lazy reports can be managed from the Lazy report list page (`/biruni/md/lazy_report_list`). This page provides an overview of all reports and their statuses, allowing you to track, download, or delete them as needed.
 
+For UX consistency, we have some standard for lazy report. You should use `/core/md/lazy_report_list` form as `subpage` with form filter in your page to show lazy report history.
+
+```javascript
+page.subpage('lazy_report_list').run('/core/md/lazy_report_list', { form: fi.form });
+```
+
 ## **Waiting and Notifications**
 
 * By default, the user waits up to **60 seconds** for the report to generate.
@@ -67,6 +71,3 @@ Lazy reports can be managed from the Lazy report list page (`/biruni/md/lazy_rep
 
 * A user can generate only **one** Lazy Report at a time for each report type.
 * If a user tries to generate another Lazy Report while one is still in progress, they are notified that another report is being generated. The user can continue working without interruption.
-
-
-

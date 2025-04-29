@@ -1,5 +1,5 @@
 ---
-icon: binary-circle-check
+icon: code-commit
 layout:
   title:
     visible: true
@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Data / Business Logic
+# Basic Concepts
 
 The Biruni Framework is a robust system for developing business logic directly within Oracle Database. This architecture allows developers to create, manage, and expose business logic through a well-defined routing mechanism, making it accessible via HTTP requests. This document outlines the core concepts and components of the Data/Business Logic layer within the Biruni Framework.
 

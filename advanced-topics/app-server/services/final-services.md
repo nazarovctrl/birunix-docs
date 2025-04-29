@@ -2,18 +2,11 @@
 
 ## Overview
 
-The `FinalService` is a component of the Biruni framework designed to handle post-request processing tasks, such as sending SMS, emails, or broadcasting messages. It executes at the end of every request and supports both synchronous and asynchronous execution.
+The `FinalService` is a component of the Biruni framework designed to handle post-request processing tasks, such as sending SMS, emails, or notifications. It executes at the end of request and supports both synchronous and asynchronous execution.
 
 {% hint style="warning" %}
 **Note**: Synchronous execution will be deprecated in future versions, and asynchronous execution will become the default.
 {% endhint %}
-
-Key features:
-
-* Extensible through inheritance of `uz.greenwhite.biruni.old.service.FinalService`
-* Processes data passed as a sequence (`Seq[Any]`)
-* Logs errors in the `biruni_final_service_log` table
-* Suitable for tasks like notifications, logging, or cleanup
 
 ## Usage
 
@@ -131,7 +124,6 @@ This query retrieves the most recent error logs first, allowing you to diagnose 
 ### Common Use Cases
 
 * **Notifications**: Sending SMS, emails, or WebSocket messages after request processing.
-* **Logging**: Recording request outcomes or audit trails.
 * **Cleanup**: Performing post-request cleanup tasks, such as clearing temporary data.
 
 ### Best Practices

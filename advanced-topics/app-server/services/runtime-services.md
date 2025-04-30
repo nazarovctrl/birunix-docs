@@ -1,4 +1,5 @@
 ---
+icon: person-running
 layout:
   title:
     visible: true

@@ -1,4 +1,5 @@
 ---
+icon: square-check
 layout:
   title:
     visible: true

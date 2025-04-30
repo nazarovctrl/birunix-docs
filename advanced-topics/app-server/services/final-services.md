@@ -65,20 +65,22 @@ To trigger a `FinalService` during request processing, use one of the `Add_Final
 1. **Using Hashmap**:
 
 ```sql
-PROCEDURE Add_Final_Service (
-  i_Class_Name VARCHAR2,
+Procedure Add_Final_Service
+(
+  i_Class_Name varchar2,
   i_Data       Hashmap,
-  i_Is_Async   VARCHAR2 := 'N'
+  i_Is_Async   varchar2 := 'N'
 );
 ```
 
 2. **Using Arraylist**:
 
 ```sql
-PROCEDURE Add_Final_Service (
-  i_Class_Name VARCHAR2,
+Procedure Add_Final_Service
+(
+  i_Class_Name varchar2,
   i_Data       Arraylist,
-  i_Is_Async   VARCHAR2 := 'N'
+  i_Is_Async   varchar2 := 'N'
 );
 ```
 
@@ -91,7 +93,7 @@ PROCEDURE Add_Final_Service (
 
 To trigger the `SendEmailService` asynchronously with an `Arraylist` of data:
 
-```sql
+```plsql
 Add_Final_Service(i_Class_Name => 'uz.greenwhite.biruni.old.service.finalservice.SendEmailService',
                   i_Data       => Arraylist('Subject: Welcome', 'user1@example.com'),
                   i_Is_Async   => 'Y');
@@ -102,7 +104,9 @@ Add_Final_Service(i_Class_Name => 'uz.greenwhite.biruni.old.service.finalservice
 If the `run` method of a `FinalService` encounters an error, the error details are logged in the `biruni_final_service_log` table. To view the logs, query the table as follows:
 
 ```sql
-SELECT * FROM biruni_final_service_log ORDER BY log_date DESC;
+select *
+  from Biruni_Final_Service_Log
+ order by Log_Date desc;
 ```
 
 This query retrieves the most recent error logs first, allowing you to diagnose issues with your `FinalService` execution.
